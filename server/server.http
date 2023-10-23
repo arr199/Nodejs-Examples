@@ -1,0 +1,15 @@
+### GET ALL THE USERS
+GET http://localhost:1236/users
+
+### create a new user
+POST http://localhost:1236/users
+Content-Type: application/json 
+
+{
+    "user" : "Juana",
+    "age" : 99 , 
+    "sport" : "Coding" ,
+    "country" : "Polland"
+
+}
+
